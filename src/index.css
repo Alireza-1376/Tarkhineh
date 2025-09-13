@@ -1,0 +1,16 @@
+@import url('../public/fonts.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "Estedad";
+}
+
+.snap-mandatory::-webkit-scrollbar{
+  display: none;
+}
+.snap-mandatory img{
+  opacity: 0.5;
+}
