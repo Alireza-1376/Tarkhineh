@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="relative flex items-center w-screen justify-between md:justify-around h-16 md:h-28  px-4 md:px-0">
                 <div className={` order-1 md:order-2 `}>
                     <a href="">
-                        <img className="w-24 md:w-36" src="/images/greenLogo.png" alt="" />
+                        <img className="w-24 md:w-36" src="/images/greenLogo.svg" alt="" />
                     </a>
                 </div>
                 <nav className="fixed bottom-0 top-0 right-0 md:static order-2 z-20  bg-white">
@@ -25,7 +25,7 @@ const Navbar = () => {
                                 <IoMdClose size={30} color="white" />
                             </div>
                             <div className="right-2 absolute top-1/2 -translate-y-1/2">
-                                <img src="/images/whiteLogo.png" alt="" />
+                                <img src="/images/whiteLogo.svg" alt="" />
                             </div>
                         </li>
                         <li className={`${showSidebar == false ? " opacity-0 scale-0 text-nowrap md:scale-100 md:opacity-100" : ""} transition-all duration-250 p-2 md:p-0 border-b border-gray-4  md:border-none`}>
