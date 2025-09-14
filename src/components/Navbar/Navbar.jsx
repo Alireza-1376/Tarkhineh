@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <Fragment>
-            <div className="relative flex items-center w-screen justify-between md:justify-around h-16 md:h-28  px-4 md:px-0">
+            <div className="relative flex items-center w-screen justify-between h-16 md:h-28  px-4 lg:px-8">
                 <div className={` order-1 md:order-2 `}>
                     <a href="">
                         <img className="w-24 md:w-36" src="/images/greenLogo.svg" alt="" />
